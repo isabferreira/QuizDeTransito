@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05536D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/baloo"
+        android:text="QUIZ DE TRÂNSITO"
+        android:textColor="#FBFDFC"
+        android:textSize="35sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logooooo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo_2_medium"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Teste seus conhecimentos sobre as placas de trânsito."
+        android:textColor="#FAFCFB"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#C43B47"
+        android:fontFamily="@font/baloo"
+        android:onClick="telaDois"
+        android:text="INICIAR"
+        android:textColor="#FCF9FE"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>
